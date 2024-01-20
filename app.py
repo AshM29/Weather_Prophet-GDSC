@@ -8,6 +8,7 @@ with col1:
    a=st.number_input('Enter a value',value=10)
 with col2:
    b=st.text_input('Enter text')
+   c=st.selectbox(label='Choose',options=[1,2,3])
 sub=st.button(label='Submit')
 if sub:
   st.write(a)
