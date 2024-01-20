@@ -11,6 +11,7 @@ with col2:
    c=st.selectbox(label='Choose',options=[1,2,3])
 sub=st.button(label='Submit')
 if sub:
+  st.balloons()
   st.write(a)
   st.write(b)
 print(a)
